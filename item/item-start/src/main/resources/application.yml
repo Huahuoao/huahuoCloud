@@ -8,5 +8,5 @@ spring:
         password: nacos
         server-addr: 124.221.15.123:8848
         namespace: e0b14217-92d0-4745-9ad5-86b3c9d8d6b0
-server:
-  port: 9001
+  profiles:
+    active: service,web

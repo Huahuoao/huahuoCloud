@@ -12,7 +12,20 @@
     <name>user-service</name>
     <description>service 模块，对应 MVC 的 M 概念，存放核心业务逻辑代码</description>
     <dependencies>
-
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.29</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.2</version>
+        </dependency>
     </dependencies>
 
     <build>

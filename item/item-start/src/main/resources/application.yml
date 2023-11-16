@@ -2,6 +2,11 @@ spring:
   application:
     name: huahuo-item
   cloud:
+    sentinel:
+      transport:
+        port: 9999
+        dashboard: 124.221.15.123:8858
+        clientIp: localhost
     nacos:
       discovery:
         username: nacos

@@ -41,6 +41,14 @@ public class User implements Serializable {
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
 
+    public static User getUser() {
+        User user = new User();
+        user.setId(999);
+        user.setMsg("测试");
+        user.setMoney(500);
+        return user;
+    }
+
     @Override
     public boolean equals(Object that) {
         if (this == that) {
